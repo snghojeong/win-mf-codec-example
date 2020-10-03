@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# VS files
+.vs/*
+x64/*
+codec_list/x64/*
+x86/*

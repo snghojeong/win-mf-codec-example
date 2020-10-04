@@ -45,7 +45,7 @@ int main()
 			NULL
 		);
 
-		std::wcout << name << std::endl;
+		printf_s("%ls\n", name);
 
 		CoTaskMemFree(name);
 	}

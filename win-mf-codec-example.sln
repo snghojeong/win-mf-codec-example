@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codec_list", "codec_list\codec_list.vcxproj", "{1FCF16D9-0153-4993-817C-8781CBB0971E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codec_attr", "codec_attr\codec_attr.vcxproj", "{22F89692-4BC1-4334-80BE-C8E330F5C817}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{1FCF16D9-0153-4993-817C-8781CBB0971E}.Release|x64.Build.0 = Release|x64
 		{1FCF16D9-0153-4993-817C-8781CBB0971E}.Release|x86.ActiveCfg = Release|Win32
 		{1FCF16D9-0153-4993-817C-8781CBB0971E}.Release|x86.Build.0 = Release|Win32
+		{22F89692-4BC1-4334-80BE-C8E330F5C817}.Debug|x64.ActiveCfg = Debug|x64
+		{22F89692-4BC1-4334-80BE-C8E330F5C817}.Debug|x64.Build.0 = Debug|x64
+		{22F89692-4BC1-4334-80BE-C8E330F5C817}.Debug|x86.ActiveCfg = Debug|Win32
+		{22F89692-4BC1-4334-80BE-C8E330F5C817}.Debug|x86.Build.0 = Debug|Win32
+		{22F89692-4BC1-4334-80BE-C8E330F5C817}.Release|x64.ActiveCfg = Release|x64
+		{22F89692-4BC1-4334-80BE-C8E330F5C817}.Release|x64.Build.0 = Release|x64
+		{22F89692-4BC1-4334-80BE-C8E330F5C817}.Release|x86.ActiveCfg = Release|Win32
+		{22F89692-4BC1-4334-80BE-C8E330F5C817}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

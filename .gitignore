@@ -36,4 +36,6 @@
 x64/*
 codec_list/x64/*
 codec_attr/x64/*
+codec_attr/Debug/*
 x86/*
+Debug/*

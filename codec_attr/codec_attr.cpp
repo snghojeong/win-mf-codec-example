@@ -17,7 +17,7 @@ int main()
 	io_typeinfo.guidSubtype = MFVideoFormat_H264;
 	IMFActivate **devices = NULL;
 	UINT32 num_devices;
-	hr = MFTEnumEx(MFT_CATEGORY_VIDEO_ENCODER, MFT_ENUM_FLAG_ALL, // MFT_ENUM_FLAG_HARDWARE | MFT_ENUM_FLAG_ASYNCMFT | MFT_ENUM_FLAG_SORTANDFILTER | MFT_ENUM_FLAG_SORTANDFILTER_APPROVED_ONLY,
+	hr = MFTEnumEx(MFT_CATEGORY_VIDEO_ENCODER, MFT_ENUM_FLAG_ALL, 
 		NULL, &io_typeinfo,
 		&devices, &num_devices);
 

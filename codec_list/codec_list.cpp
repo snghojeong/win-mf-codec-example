@@ -2,13 +2,7 @@
 #include <iostream>
 
 #include <wrl.h>
-//#include <windows.h>
-//#include <mfidl.h>
 #include <mfapi.h>
-//#include <mfreadwrite.h>
-//#include <mferror.h>
-//#include <mfobjects.h>
-//#include <strmif.h>
 
 int main()
 {

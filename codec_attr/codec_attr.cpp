@@ -14,7 +14,6 @@ int main()
 
 	MFT_REGISTER_TYPE_INFO io_typeinfo;
 	io_typeinfo.guidMajorType = MFMediaType_Video;
-	io_typeinfo.guidSubtype = MFVideoFormat_H264;
 	IMFActivate **devices = NULL;
 	UINT32 num_devices;
 	hr = MFTEnumEx(MFT_CATEGORY_VIDEO_ENCODER, MFT_ENUM_FLAG_ALL, 

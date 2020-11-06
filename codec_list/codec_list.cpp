@@ -10,8 +10,8 @@ int main()
 
 	CoInitializeEx(NULL, COINIT_MULTITHREADED);
 
-	CLSID *codec_clsid_list = NULL;   // Pointer to an array of CLISDs. 
-	UINT32 codec_cls_id_cnt = NULL;   // Size of the array.
+	CLSID *codec_clsid_list = NULL;
+	UINT32 codec_cls_id_cnt = NULL;
 	hr = MFTEnum(
 		MFT_CATEGORY_VIDEO_ENCODER,
 		0,                 // Reserved

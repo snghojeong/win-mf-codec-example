@@ -27,7 +27,7 @@ int main()
 			&name, NULL);
 
 		if (hr == S_OK) {
-			printf_s("%ls\n", name);
+			fprintf_s(stdout, "%ls\n", name);
 			CoTaskMemFree(name);
 		}
 

@@ -37,7 +37,7 @@ int main()
 			NULL
 		);
 
-		printf_s("%ls\n", name);
+		fprintf_s(stdout, "%ls\n", name);
 
 		CoTaskMemFree(name);
 	}
